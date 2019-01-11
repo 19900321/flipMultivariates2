@@ -1,0 +1,50 @@
+Package: flipMultivariates
+Title: Multivariate models
+Version: 0.1
+Author: Displayr <opensource@displayr.com>
+Maintainer: Displayr <opensource@displayr.com>
+Description: Multivariate models (e.g. LDA, random forest, SVM) according to the flip Project conventions.
+Depends:
+    R (>= 3.1.1)
+License: GPL-3
+Imports:
+    Ckmeans.1d.dp,
+    e1071,
+    flipAnalysisOfVariance,
+    flipData (>= 1.1.3),
+    flipFormat,
+    flipRegression,
+    flipStatistics,
+    flipTransformations,
+    flipTrees,
+    flipChartBasics,
+    flipU,
+    ggplot2,
+    keras,
+    MASS,
+    methods,
+    randomForest,
+    reticulate,
+    rhtmlHeatmap,
+    rhtmlLabeledScatter,
+    rhtmlMoonPlot,
+    utils,
+    xgboost
+Suggests:
+    testthat,
+    flipExampleData
+Remotes:
+    Displayr/flipAnalysisOfVariance,
+    Displayr/flipData,
+    Displayr/flipFormat,
+    Displayr/flipRegression,
+    Displayr/flipStatistics,
+    Displayr/flipTransformations,
+    Displayr/flipTrees,
+    Displayr/flipU,
+    Displayr/flipChartBasics,
+    Displayr/rhtmlHeatmap,
+    Displayr/rhtmlLabeledScatter,
+    Displayr/rhtmlMoonPlot
+RoxygenNote: 6.1.1
+Encoding: UTF-8
